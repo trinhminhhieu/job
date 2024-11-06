@@ -1,0 +1,18 @@
+{
+  "extends": ["eslint:recommended", "angular", "plugin:jasmine/recommended"],
+  "installedESLint": true,
+  "plugins": ["standard", "promise", "jasmine"],
+  "rules": {
+    "strict": 0,
+    "indent": [2, 4],
+    "quotes": [2, "single"],
+    "no-unused-vars": 1,
+    "no-underscore-dangle": 1
+  },
+  "env": {
+    "jasmine": true
+  },
+  "globals": {
+    "navigator": true
+  }
+}
